@@ -1,0 +1,201 @@
+.salescontainer{
+    width: 100%;
+    height: 100vh;
+    /* height: 100%;
+    min-height: 100%; */
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+    margin-top: 2rem;
+}
+
+/* .heading{
+    flex:1;
+}
+
+.subheading{
+    flex:1;
+} */
+
+.pricingtable{
+    background-color: #FFC09A;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 75%;
+    /* height: fit-content; */
+    /* height: 80%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: baseline; */
+}
+
+.plansbox_wrapper{
+    /* margin-top: -2rem; */
+    height: fit-content;
+    flex: 2;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+.plans_box{
+    width: 75%;
+    /* background-color: rgb(238, 136, 12); */
+    /* height: 20rem; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    margin-top: 1.5rem;
+
+}
+
+.plan_namebox{
+    background-color: #DEBDFF;
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.planitem{
+    background-color: rgb(255, 255, 255);
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 20rem; */
+    /* margin-top: 1.5rem; */
+}
+
+.featuresbox{
+    /* background-color: antiquewhite; */
+}
+
+.features_list {
+    margin-top: -1rem;
+    padding-left: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+	font-size: 1em;
+    /* background-color: blue; */
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+.features_list li{
+    text-align: center;
+    /* background-color: antiquewhite; */
+    margin-top: 1.75rem;
+}
+
+#planname{
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+	font-size: 1.3em;
+	/* margin-top: 0; */
+	/* line-height: 0/5; */
+    font-weight: 500;
+    text-align: center;
+    /* background-color: #ffdbbd; */
+    align-self: center;
+}
+
+#price{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+#h1text{
+    text-align: center;
+    /* background-color: blueviolet; */
+    width:fit-content;
+    color: black;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.75em;
+    font-weight: 900;
+    border-bottom: 0.2rem solid black;
+    padding-bottom: 0.5rem;
+    /* text-decoration: underline; */
+}
+
+#h3text{
+    text-align: center;
+    color: black;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.25em;
+    font-weight: 500;
+
+}
+
+.white_btn{
+	/* margin-top: 1rem; */
+	border: 0.08rem solid rgba(0,0,0,0.729);
+	outline: none;
+	/* padding: 0.8rem 0; */
+	background-color: #e3c7ff;
+	border-radius: 1rem;
+	width:fit-content;
+    min-width: 4.5rem;
+    height: 2rem;
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
+	color: rgba(0,0,0,0.729);
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    /* align-self:flex-end; */
+    align-self: center;
+}
+
+.white_btn:hover{
+    background-color: #c188fa;
+}
+
+.btn{
+
+    /* background-color: #f4650d; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* bottom: 0; */
+}
+
+@media screen and (max-width: 835px){
+    .plans_box{
+        /* background-color: brown; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .planitem{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .btn{
+        margin-bottom: 1rem;
+    }
+    .salescontainer{
+        height: unset;
+    }
+}
+
+.mypopup > * {
+    /* margin: auto; */
+    background: rgb(83, 2, 2);
+    width: 100%;
+    /* padding: 5px; */
+    /* background-color: aquamarine; */
+}

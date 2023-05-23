@@ -1,0 +1,42 @@
+.order_btn{
+    background-color: #FFC09A;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    /* display: none; */
+    background-color: #FFC09A;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.order_btn:hover{
+    background-color: #f9a26b;
+}
+
+.payment_wrapper{
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 0px;
+}
+
+.tempwrapper{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.tempwrapper a{
+    text-decoration: none;
+    color: black;
+}

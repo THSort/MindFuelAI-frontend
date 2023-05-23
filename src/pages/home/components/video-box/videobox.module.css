@@ -1,0 +1,102 @@
+.videoboxwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.videobox{
+    display: flex;
+    flex-direction: column;
+    background-color: #DEBDFF;
+    width: 75%;
+    /* height: 95vh; */
+}
+
+.videotitle{
+    align-self: center;
+    /* background-color: rgb(240, 144, 26); */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#text13{
+    color: rgba(0,0,0,0.729);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.25em;
+    line-height: 2;
+    font-weight: 700;
+    /* background-color: antiquewhite; */
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.video{
+    width: 92%;
+    align-self: center;
+    /* width: 58.75rem; */
+}
+
+.pricesbtnwrapper{
+    /* background-color: blueviolet; */
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.seepricesbtn{
+    display: flex;
+    justify-content: center;
+    /* background-color:cadetblue; */
+    width: 10.75rem;
+    height: 1.925rem;
+    line-height: 1.625rem;
+    /* padding: 0 0.40625rem; */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875em;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: 0.08rem solid rgba(0,0,0,0.729);
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.btn01{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,0,0,0.729);
+    text-decoration: none;
+    /* background-color: rgb(92, 57, 10); */
+    width: 90%;
+    margin-left: -1rem;
+}
+
+.pricesbtn {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgba(0,0,0,0.729);
+    border: 0.08rem solid rgba(0,0,0,0.729);
+    /* background-color: brown; */
+    align-self: center;
+    display: inline-block;
+    width: 10.75rem;
+    height: 1.625rem;
+    line-height: calc(1.625rem - 2px);
+    padding: 0 0.40625rem;
+    vertical-align: middle;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875em;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.pricesbtn:hover{
+    background-color: #d0a4fb;
+}

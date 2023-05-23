@@ -1,0 +1,106 @@
+.msg{
+    /* background-color: aquamarine; */
+}
+
+.msg > * >* {
+    border: 1px solid red;
+    background-color: #DEBDFF;
+    border: 0.1rem solid #c38bfb;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+}
+
+.cs-message--outgoing .cs-message__content {
+    /* border: 5px solid yellow; */
+    background-color: #FFC09A;
+    border-radius: 0.7rem;
+    border: 0.1rem solid #fda26a;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+}
+
+.cs-message-input__tools{
+    /* display: none; */
+    /* padding-right: 5px; */
+}
+
+.cs-message-input__tools:first-child .cs-button:last-child {
+    display: none;
+}
+
+.cs-message-input__content-editor-wrapper{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: transparent; */
+}
+
+.cs-chat-container .cs-message-input{
+    background-color: transparent;
+    border-top: 0.1rem solid white;
+}
+
+.cs-main-container{
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+}
+
+.cs-message-input__tools:last-child .cs-button:last-child {
+    margin-right: 0;
+    align-self: center;
+}
+
+
+.cs-button {
+    color: #000000;
+    opacity: 100%;
+    /* outline: 2px solid black; */
+}
+
+.scrollbar-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.cs-message-input__content-editor-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #FFC09A;
+    margin: 0;
+    padding: .6em .9em;
+    border-radius: .7em;
+    flex-grow: 1;
+    margin-left: 1.2rem;
+}
+
+.cs-message-input__content-editor {
+    box-sizing: border-box;
+    flex-grow: 1;
+    background-color: #FFC09A;
+    font-family: 'JetBrains Mono', monospace;
+    outline: 0;
+    border-top: 0 none;
+    border-right: 0 none;
+    border-bottom: 0 none;
+    border-left: 0 none;
+    overflow: visible;
+    color: rgba(0,0,0,.87);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.ps .ps__rail-x:hover, .ps .ps__rail-y:hover, .ps .ps__rail-x:focus, .ps .ps__rail-y:focus, .ps .ps__rail-x.ps--clicking, .ps .ps__rail-y.ps--clicking {
+    background-color: #eee;
+    background-color: #c38bfb;
+    opacity: .9;
+}
+
+.ps__thumb-y {
+    /* background-color: #b87e5b; */
+}
